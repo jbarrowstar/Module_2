@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to NAL Image Tilt and Rotate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+        .start-button {
+            padding: 12px 20px;
+            background-color: #87CEEB;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .start-button:hover {
+            background-color: #69b0d9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Image Tilt and Rotate Tool</h1>
+        <p>This tool allows you to upload an image, apply tilt and rotation, and view different perspectives of the image. Click the button below to get started.</p>
+        <p><p>Follow these instructions to run the code</p>
+             1. Upload an image and apply tilt/rotate transformations
+            2. Interactive main image with mouse zoom and pan
+            3. Four transformed images with labeled rotation/tilt angles
+            4. Individual export buttons for each output image
+            5. User-friendly UI with clean design and responsive layout</p>
+        <button class="start-button" onclick="startApplication()">Start</button>
+    </div>
+
+    <script>
+        function startApplication() {
+            window.location.href = "index.html"; // Navigate to the main application page
+        }
+    </script>
+</body>
+</html>
